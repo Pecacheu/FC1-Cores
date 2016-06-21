@@ -17,7 +17,7 @@
           "url": "https://github.com/Pecacheu/FC1-Cores/raw/master/btech_drones.zip",
           "archiveFileName": "btech_drones.zip",
           "checksum": "SHA-256:056d6b8602459b130c42508dc90e86e4f4504876aaa3c7a5329f1e87adb25284",
-          "size": "1225803",
+          "size": "1231122",
           "boards": [
             { "name": "FC1 Flight Computer" }
           ],
