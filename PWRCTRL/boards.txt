@@ -1,0 +1,27 @@
+menu.cpu=Processor
+
+fc1avr.name=FC1 Power Controller
+fc1avr.bootloader.tool=arduino:avrdude
+fc1avr.bootloader.unlock_bits=0xff
+fc1avr.bootloader.lock_bits=0xff
+fc1avr.build.core=arduino:arduino
+fc1avr.build.board=attiny
+fc1avr.build.variant=tiny14
+fc1avr.upload.tool=arduino:avrdude
+
+fc1avr.menu.cpu.attiny24=ATtiny24
+fc1avr.menu.cpu.attiny24.upload.maximum_size=2048
+fc1avr.menu.cpu.attiny24.build.mcu=attiny24
+
+fc1avr.menu.cpu.attiny44=ATtiny44
+fc1avr.menu.cpu.attiny44.upload.maximum_size=4096
+fc1avr.menu.cpu.attiny44.build.mcu=attiny44
+
+fc1avr.menu.cpu.attiny84=ATtiny84
+fc1avr.menu.cpu.attiny84.upload.maximum_size=8192
+fc1avr.menu.cpu.attiny84.build.mcu=attiny84
+
+fc1avr.bootloader.low_fuses=0xe2
+fc1avr.menu.bootloader.high_fuses=0xdf
+fc1avr.bootloader.extended_fuses=0xff
+fc1avr.build.f_cpu=8000000L

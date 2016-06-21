@@ -14,7 +14,7 @@
           "architecture": "samd",
           "version": "1.6.6",
           "category": "Contributed",
-          "url": "https://github.com/Pecacheu/FC1-Cores/raw/master/btech_drones.zip",
+          "url": "https://github.com/Pecacheu/FC1-Cores/raw/master/CPU/btech_drones.zip",
           "archiveFileName": "btech_drones.zip",
           "checksum": "SHA-256:979c6677ad79ffe6973a5cbd803e55670532a47450897321449359da65ed7861",
           "size": "1164076",
@@ -41,6 +41,31 @@
               "packager": "arduino",
               "name": "CMSIS",
               "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "B-Tech FC Co-Processors",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Pecacheu/FC1-Cores/raw/master/PWRCTRL/btech_dronesavr.zip",
+          "archiveFileName": "btech_dronesavr.zip",
+          "checksum": "SHA-256:3e098f839a0c685a5a3f2700590d09d138bf0de363e38cca3c19160db9f647d9",
+          "size": "2747",
+          "boards": [
+            { "name": "FC1 Power Controller" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
             }
           ]
         }

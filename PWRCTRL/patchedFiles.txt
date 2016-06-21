@@ -1,0 +1,4 @@
+boards.txt
+platform.txt
+
+(CHECKSUM Generated with: 'shasum -a 256 btech_dronesavr.zip')
