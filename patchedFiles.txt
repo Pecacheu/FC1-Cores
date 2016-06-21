@@ -1,0 +1,5 @@
+boards.txt
+platform.txt
+/cores/arduino/USB/USBCore.cpp
+
+(CHECKSUM Generated with: 'shasum -a 256 btech_drones.zip')
